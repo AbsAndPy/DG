@@ -1,0 +1,80 @@
+body {
+	background-color: #333333;
+}
+
+a {
+	outline: none;
+	border:0;
+}
+
+.button_container {
+	width:960px;
+	border:0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.button_left_top {
+	width:470px;
+	padding-right:10px;
+	align:left;
+	border:0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
+}
+
+.button_right_top {
+	width:470px;
+	padding-left:10px;
+	align:right;
+	border:0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+}
+
+.button_left_bottom {
+	width:470px;
+	padding-top:20px;
+	padding-right:10px;
+	align:left;
+	border:0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
+}
+
+.button_right_bottom {
+	width:470px;
+	padding-top:20px;
+	padding-left:10px;
+	align:right;
+	border:0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+}
+
+</style>

@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+         .transButton
+    {background-image:none;
+      background-color: transparent;
+      color: white;
+
+      border: rgba(0,0,0,0.5) ;
+      width:180px      ;
+       height:70px} ;
+a:link {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+
+
+}
+a {
+	outline: none;
+	border:0;
+}
+
+a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a {
+	outline: none;
+	border:0;
+}
+
+body {
+
+	width:100%;
+	background-repeat:no-repeat;
+	background-color: #000000;
+	margin: 0px;
+}
+.container {
+	background-image:url(../images/background_container.jpg);
+	background-repeat:no-repeat;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 20px;
+	height: auto;
+	width: 1100px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.header {
+	background-image:transparent;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding: 0px;
+	height: 230px;
+	width: 960px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.buttons {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding: 0px;
+	height: 70px;
+	width: 960px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.media_container {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding: 0px;
+	height: 408px;
+	width: 960px;
+	background-image: url(../images/background_media_container.jpg);
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: x-small;
+	text-align: center;
+	font-weight: bold;
+}
+.gallery_image {
+	background-image: transparent;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	height: 136px;
+	width: 192px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+.credits {
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	height: 500px;
+	width: 960px;
+	background-image: transparent;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: Helvetica, sans-serif;
+	color: #BBBBBB;
+	font-size: small;
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	line-height: 14px;
+}
+.what {
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	height: 328px;
+	width: 900px;
+	background-image: transparent;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: Helvetica, sans-serif;
+	color: #BBBBBB;
+	font-size: small;
+	text-align: justify;
+	font-weight: normal;
+	position: relative;
+	line-height: 16px;
+}
+.column_left {
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	height: 388px;
+	width: 455px;
+	background-image: transparent;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: Helvetica, sans-serif;
+	color: #BBBBBB;
+	font-size: small;
+	text-align: right;
+	font-weight: normal;
+	float: left;
+	line-height: 14px;
+}
+.column_right {
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	height: 388px;
+	width: 495px;
+	background-image: transparent;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: Helvetica, sans-serif;
+	color: #BBBBBB;
+	font-size: small;
+	text-align: left;
+	float: right;
+	font-weight: bold;
+	line-height: 14px;
+}
+.bottom {
+	background-image: transparent;
+	font-family: Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+	height: auto;
+	width: 960px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	color: #BBBBBB;
+	font-size: x-small;
+	text-align: center;
+	font-weight: bold;
+}
+.bottom_social {
+	background-image: transparent;
+	text-align: center;
+	height: 64px;
+	width: 960px;
+	padding-top: 16px;
+	font-family: Helvetica, sans-serif;
+	color: #BBBBBB;
+	font-size: x-small;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>WANDERERS - Short Film</title>
+
+    <link rel="stylesheet" href="{% static 'css/wanderers.css' %}">
+
+</head>
+<body background="{% static 'background_full.jpg' %}"; center top; onload="MM_preloadImages(&#39;images/button_film_on.jpg&#39;,&#39;images/button_gallery_on.jpg&#39;,&#39;images/button_what_on.jpg&#39;,&#39;images/button_credits_on.jpg&#39;)">
+
+<div class="container">
+    <div class="header"></div>
+
+	<div class="buttons">
+
+<a href="{% url 'wanderers_index' %}" target="_blank"><input type="button" value="Buttom1"  class="transButton"  ></a>
+<a href="{% url 'wanderers_index' %}" target="_blank"><input type="button" value="Buttom2"  class="transButton"  ></a>
+<a href="{% url 'wanderers_index' %}" target="_blank"><input type="button" value="Buttom3"  class="transButton"  ></a>
+<a href="{% url 'wanderers_index' %}" target="_blank"><input type="button" value="Buttom4"  class="transButton"  ></a>
+
+</div>
+    <div class="media_container"><iframe src="http://player.vimeo.com/video/108650530" width="960" height="408" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+
+    <div class="bottom">Make sure to view in full screen, and turn up the volume on your best set of speakers or
+        headphones.
+    </div>
+</div>
+
+
+</body>
+</html>

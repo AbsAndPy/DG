@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+   <div class="jumbotron">
+    <TABLE  style="width: 100%; table-layout: fixed;">
+
+        <TR>
+            <TD width="50%"><a href="{% url 'models3d' %}">
+                <img src="{% static '3d.jpg' %}" alt="models3d"/></a></TD>
+            <TD width="50%"><a href="http://www.ya.ru.com">
+                <img src="{% static 'blank.jpg' %}" alt="project_2"/></a></TD>
+        </TR>
+        <TR>
+            <TD width="50%"><a href="http://www.ya.ru.com">
+                <img src="{% static 'blank.jpg' %}" alt="project_3"/></a></TD>
+            <TD width="50%"><a href="http://www.ya.ru.com">
+                <img src="{% static 'blank.jpg' %}" alt="project_4"/></a></TD>
+        </TR>
+    </TABLE>
+
+
+</div>
+
+<div class="jumbotron">
+    <TABLE  COLS=2 align=center width="100%">
+
+        <TR>
+            <TD width="50%"><a href="{% url 'models3d' %}">
+                <img src="{% static '3d.jpg' %}" alt="models3d"/></a></TD>
+            <TD width="50%"><a href="http://www.ya.ru.com">
+                <img src="{% static 'blank.jpg' %}" alt="project_2"/></a></TD>
+        </TR>
+        <TR>
+            <TD width="50%"><a href="http://www.ya.ru.com">
+                <img src="{% static 'blank.jpg' %}" alt="project_3"/></a></TD>
+            <TD width="50%"><a href="http://www.ya.ru.com">
+                <img src="{% static 'blank.jpg' %}" alt="project_4"/></a></TD>
+        </TR>
+    </TABLE>
+
+
+</div>
+{% endblock content %}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/baseblog.css' %}">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="{% static 'js/menujs.js' %}"></script>
+    <title>Abs Blog</title>
+    <meta name="description" content="absblog">
+    <meta name="author" content="abs">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'css/favicon.ico' %}" type="image/x-icon">
+</head>
+<body>
+<div id='cssmenu'>
+    <ul>
+         <li><a href="{% url 'post_list' %}">Home</a></li>
+   <li class='active'><a href="{% url 'projects' %}">Projets</a>
+      <ul>
+         <li><a href="{% url 'projects' %}">Projets</a>
+
+         </li>
+         <li><a href='#'>Product 2</a>
+             <!--
+            <ul>
+               <li><a href='#'>Sub Product</a></li>
+               <li><a href='#'>Sub Product</a></li>
+            </ul>
+            -->
+         </li>
+      </ul>
+   </li>
+   <li class="TTPE"><a href="{% url 'about' %}">About</a></li>
+   <li><a href="#">Good Links</a></li>
+        <li>{% if user.is_authenticated %}
+        <p class="top-menu">Hello {{ user.username }}<small>(<a href="{% url 'django.contrib.auth.views.logout' %}">Log out</a>)</small></p>
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
+        {% else %}
+        <a href="{% url 'django.contrib.auth.views.login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+
+        {% endif %}
+        </li>
+    </ul>
+
+</div>
+
+<div id="page-content">
+
+    <div class="container">
+
+        {% block content %}
+        {% endblock %}
+
+    </div>
+    <footer class="footer">
+        <p>2015 Abs blog</p>
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

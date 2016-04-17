@@ -1,0 +1,40 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% load staticfiles %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Anon Anonymous - Digital Artist</title>
+
+<link rel="stylesheet" href="{% static 'css/ddd.css' %}">
+
+
+
+
+</head>
+
+<body>
+{% load staticfiles %}
+<table width="960" border="0" align="center">
+  <tbody><tr>
+    <td>
+    <img src="{% static 'head.png' %}" style="border-style: none" width="960" height="160"><br>
+        <iframe src="https://player.vimeo.com/video/132101048?color=ffffff&title=0&byline=0&portrait=0" width="960" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+	<!--<iframe src="./Erik Wernquist - Digital Artist_files/132101048.html" width="960" height="400" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+	-->
+    <img src="{% static 'recent.png' %}" width="960" height="60" alt="">
+    <div class="button_container">
+    	<div class="button_left_top"><a href="{% url 'wanderers_index' %}" target="_blank"><img src="{% static 'button_wanderers.png' %}" width="470" height="196" alt=""></a></div>
+        <div class="button_right_top"><a href="https://vimeo.com/152371526" target="_blank"><img src="{% static 'button_winter.png' %}" width="470" height="196" alt=""></a></div>
+        <div class="button_left_bottom"><a href="https://www.youtube.com/watch?v=WjNssEVlB6M" target="_blank"><img src="{% static 'button_gosh.png' %}" width="470" height="196" alt=""></a></div>
+        <div class="button_right_bottom"><a href="https://vimeo.com/132183032" target="_blank"><img src="{% static 'button_new_horizons.png' %}" width="470" height="196" alt=""></a></div>
+    </div>
+    <br>
+    <br>
+    </td>
+  </tr>
+</tbody></table>
+
+
+</body></html>
